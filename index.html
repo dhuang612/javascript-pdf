@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <!--
+        include the cdn for a direct link to the project 
+        you also need the canvas that the pdf will be displayed on.
+    -->
+    <header id="pdf-header">
+      <button id="prev">previous</button>
+      <span id="currentpage"> </span>
+      <span id="totalpages">total pages: </span>
+      <button id="next">next</button>
+    </header>
+    <canvas id="my_canvas"></canvas>
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.1.266/build/pdf.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
